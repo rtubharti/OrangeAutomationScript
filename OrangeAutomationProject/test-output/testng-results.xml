@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11018" started-at="2022-10-15T21:28:05 IST" finished-at="2022-10-15T21:28:16 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11018" started-at="2022-10-15T21:28:05 IST" finished-at="2022-10-15T21:28:16 IST">
+      <class name="OrangeTest">
+        <test-method status="PASS" signature="preTestCondition()[pri:0, instance:OrangeTest@365185bd]" name="preTestCondition" is-config="true" duration-ms="7911" started-at="2022-10-15T21:27:57 IST" finished-at="2022-10-15T21:28:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestCondition -->
+        <test-method status="PASS" signature="orangeTestDemo()[pri:0, instance:OrangeTest@365185bd]" name="orangeTestDemo" duration-ms="5062" started-at="2022-10-15T21:28:05 IST" finished-at="2022-10-15T21:28:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeTestDemo -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:OrangeTest@365185bd]" name="logoutTest" duration-ms="5880" started-at="2022-10-15T21:28:10 IST" depends-on-methods="OrangeTest.orangeTestDemo" finished-at="2022-10-15T21:28:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- OrangeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
