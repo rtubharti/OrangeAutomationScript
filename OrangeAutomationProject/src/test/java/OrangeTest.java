@@ -14,13 +14,13 @@ import org.testng.annotations.Test;
 
 public class OrangeTest {
 
-	//System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	
 	WebDriver driver;
 	
 	@BeforeSuite	
 	public void preTestCondition()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_new_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().deleteAllCookies();
