@@ -40,7 +40,7 @@ public class OrangeTest {
 		Thread.sleep(4000);
 		cred.clickOnSubmit();				
 	}
-	
+	//adding comment
 	@Test(dependsOnMethods="orangeTestDemo")
 	public void logoutTest() throws InterruptedException
 	{
